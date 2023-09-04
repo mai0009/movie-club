@@ -64,6 +64,8 @@ body {
     .contact form {
         padding-left: 0 !important;
     }
+    .contact .form input{
+        width:150px;
 }
 
 /* Start Carousel */
