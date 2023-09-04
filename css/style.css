@@ -68,7 +68,8 @@ body {
         width: 100% !important;
 }
     .discount-code{
-        width:90%;
+        width:90% !important;
+        font-size:1rem;
 }
 }
 /* Start Carousel */
