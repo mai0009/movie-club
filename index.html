@@ -16,78 +16,79 @@
 </head>
 
 <body>
-
-    <div class="container-fluid">
-        <nav class="row w-100">
-            <div class="col col-md-2 d-flex align-items-center part-1 justify-content-around">
-                <img src="imgs/logo.jpg" alt="" class="logo">
-                <h1>Movie<span>Club</span></h1>
-            </div>
-            <div class="col col-md-6 navbar navbar-expand-lg">
-                <div class="container-fluid fs-2 pe-5 ps-5">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item ps-4 pe-4">
-                                <a class="nav-link active" href="#">Home</a>
+    <!-- <nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-2 d-flex align-items-center part-1">
+                    <img src="imgs/logo.jpg" alt="" class="logo">
+                    <h1>Movie<span>Club</span></h1>
+                </div>
+                <div class="col col-md-6 navbar navbar-expand-lg">
+                    <div class="container-fluid fs-3 pe-5 ps-5">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item ps-4 pe-4">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown ps-4 pe-4">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Movies</a>
+                                    <ul class="dropdown-menu fs-4">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Romantic</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Other</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown ps-4 pe-4">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Series</a>
+                                    <ul class="dropdown-menu fs-4">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Romantic</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Other</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown ps-4 pe-4">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"">Anime</a>
+                                        <ul class=" dropdown-menu fs-4">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Romantic</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Other</a></li>
+                            </ul>
                             </li>
-                            <li class="nav-item dropdown ps-4 pe-4">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Movies</a>
-                                <ul class="dropdown-menu fs-3">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Romantic</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Other</a></li>
-                                </ul>
+                            <li class=" nav-item ps-4 pe-4"><a class="nav-link" href="#">Download</a>
                             </li>
-                            <li class="nav-item dropdown ps-4 pe-4">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Series</a>
-                                <ul class="dropdown-menu fs-3">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Romantic</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Other</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown ps-4 pe-4">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false"">Anime</a>
-                                    <ul class=" dropdown-menu fs-3">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Romantic</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Other</a></li>
-                        </ul>
-                        </li>
-                        <li class=" nav-item ps-4 pe-4"><a class="nav-link" href="#">Download</a>
-                        </li>
-                        <li class="nav-item ps-4 pe-4"><a class="nav-link" href="#">about</a></li>
-                        </ul>
+                            <li class="nav-item ps-4 pe-4"><a class="nav-link" href="#">about</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="col col-md-4">
+                    <form class="d-flex align-items-center" role="search">
+                        <input class="form-control me-3 fs-4" type="search" placeholder="Find Your Movie"
+                            aria-label="Search">
+                        <button class="btn btn-outline-secondary me-3 fs-4" type="submit">Search</button>
+                        <button class="btn btn-outline-primary fs-4" type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="col col-md-4">
-                <form class="d-flex align-items-center" role="search">
-                    <input class="form-control me-3 fs-3" type="search" placeholder="Find Your Movie"
-                        aria-label="Search">
-                    <button class="btn btn-outline-secondary me-3 fs-3" type="submit">Search</button>
-                    <button class="btn btn-outline-primary fs-3" type="submit">Submit</button>
-                </form>
-            </div>
-        </nav>
-    </div>
+        </div>
+    </nav> -->
 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -391,7 +392,7 @@
     <div class="footer">
         <div class="container-fluid bg-light p-5 fs-2">
             <div class="row align-items-start">
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <i class="fa-solid fa-clapperboard fs-1"></i>
                     <h2 class="d-inline-block fs-1 fw-bolder pb-5">MovieClub</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam doloribus eligendi beatae minima
@@ -416,7 +417,7 @@
                         <li><a href="#" class="text-black-50">Help</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 lh-lg">
+                <div class="col-md-3 lh-lg">
                     <h2 class="fs-1">CONTACT</h2>
                     <ul class="list-unstyled">
                         <li><i class="fa-solid fa-location-dot"></i> <span class="ps-4">Egypt, Giza, +20</span></li>

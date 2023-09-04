@@ -13,6 +13,10 @@ body {
 
 }
 
+.navigation {
+    height: 140px;
+}
+
 nav {
     background-color: rgb(255, 255, 255);
     padding: 5px;
@@ -20,12 +24,16 @@ nav {
     z-index: 10;
 }
 
+nav .row {
+    width: 100% !important;
+}
+
 nav .part-1 {
     border-right: 1px solid black;
 }
 
 nav .logo {
-    height: 130px;
+    height: 100px;
 }
 
 h1:hover {
@@ -43,8 +51,7 @@ h1 span {
 
 /* Start Carousel */
 .carousel-item img {
-    margin-top: 140px;
-    height: calc(100vh - 140px);
+    height: 100vh;
 }
 
 .carousel-caption {
