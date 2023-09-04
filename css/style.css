@@ -13,40 +13,57 @@ body {
 
 }
 
-.navigation {
-    height: 140px;
-}
-
-nav {
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
+.navbar {
+    background-color: white;
     position: fixed;
     z-index: 10;
+    width: 100%
 }
 
-nav .row {
-    width: 100% !important;
+.navbar .logo {
+    height: 50px
 }
 
-nav .part-1 {
-    border-right: 1px solid black;
+
+
+.navbar .navbar-brand::before {
+    content: "";
+    height: 60%;
+    width: 1.5px;
+    background-color: #060b0f;
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
 }
 
-nav .logo {
-    height: 100px;
-}
+@media only screen and (max-width: 800px) {
+    .navbar .navbar-brand::before {
+        background-color: #060b0f00;
+    }
 
-h1:hover {
-    text-shadow: 0 0 25px black;
-}
+    .contact .form {
+        flex-direction: column;
+    }
 
-h1 span {
-    font-weight: 300;
-    transition: 0.1s;
-}
+    .form h3 {
+        padding-bottom: 20px
+    }
 
-.row {
-    align-items: center !important;
+    .form label {
+        padding: 15px 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer p {
+        padding-bottom: 30px;
+    }
+
+    .contact form {
+        padding-left: 0 !important;
+    }
 }
 
 /* Start Carousel */
@@ -59,9 +76,9 @@ h1 span {
     border-radius: 25px;
     width: 50%;
     margin: auto;
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
-    bottom: 130px;
+    bottom: 80px;
 }
 
 .carousel-indicators button {
@@ -189,7 +206,7 @@ label {
 }
 
 .social-media {
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 30px;
 }
 

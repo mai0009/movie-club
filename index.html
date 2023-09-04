@@ -16,79 +16,68 @@
 </head>
 
 <body>
-    <!-- <nav>
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col col-md-2 d-flex align-items-center part-1">
-                    <img src="imgs/logo.jpg" alt="" class="logo">
-                    <h1>Movie<span>Club</span></h1>
-                </div>
-                <div class="col col-md-6 navbar navbar-expand-lg">
-                    <div class="container-fluid fs-3 pe-5 ps-5">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav me-auto">
-                                <li class="nav-item ps-4 pe-4">
-                                    <a class="nav-link active" href="#">Home</a>
-                                </li>
-                                <li class="nav-item dropdown ps-4 pe-4">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">Movies</a>
-                                    <ul class="dropdown-menu fs-4">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Romantic</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Other</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown ps-4 pe-4">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">Series</a>
-                                    <ul class="dropdown-menu fs-4">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Romantic</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Other</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown ps-4 pe-4">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false"">Anime</a>
-                                        <ul class=" dropdown-menu fs-4">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Romantic</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Other</a></li>
-                            </ul>
+            <img src="imgs/logo.jpg" alt="" class="logo">
+            <a class="navbar-brand" href="#">MovieClub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-5">
+                    <li class="nav-item ps-4 pe-4">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown ps-4 pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Movies</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Romantic</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
                             </li>
-                            <li class=" nav-item ps-4 pe-4"><a class="nav-link" href="#">Download</a>
+                            <li><a class="dropdown-item" href="#">Other</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ps-4 pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Series</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Romantic</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
                             </li>
-                            <li class="nav-item ps-4 pe-4"><a class="nav-link" href="#">about</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-4">
-                    <form class="d-flex align-items-center" role="search">
-                        <input class="form-control me-3 fs-4" type="search" placeholder="Find Your Movie"
-                            aria-label="Search">
-                        <button class="btn btn-outline-secondary me-3 fs-4" type="submit">Search</button>
-                        <button class="btn btn-outline-primary fs-4" type="submit">Submit</button>
-                    </form>
-                </div>
+                            <li><a class="dropdown-item" href="#">Other</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ps-4 pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"">Anime</a>
+                            <ul class=" dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Romantic</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Other</a></li>
+                </ul>
+                </li>
+                <li class=" nav-item ps-4 pe-4"><a class="nav-link" href="#">Download</a>
+                </li>
+                <li class="nav-item ps-4 pe-4"><a class="nav-link" href="#">about</a></li>
+                </ul>
+                <form class="d-none d-md-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-primary ms-2" type="submit">Submit</button>
+                </form>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -106,7 +95,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Padmaavat</h2>
                     <p>Some representative placeholder content for the first slide.</p>
-                    <button class="text-uppercase btn btn-outline-dark fs-3 mt-3">Watch Now</button>
+                    <button class="text-uppercase btn btn-outline-dark mt-3">Watch Now</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -114,7 +103,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Inception</h2>
                     <p>Some representative placeholder content for the second slide.</p>
-                    <button class="text-uppercase btn btn-outline-dark fs-3 mt-3">Watch Now</button>
+                    <button class="text-uppercase btn btn-outline-dark fs-4 mt-3">Watch Now</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -140,27 +129,27 @@
 
     <div class="welcome text-center">
         <div class="container w-50">
-            <h2 class="fs-1 pt-5">Welcome to the movie club</h2>
-            <p class="fs-2 pt-5 pb-5 text-black-50">You will find all new movies and series without any ads, and all of
+            <h2 class="pt-5">Welcome to the movie club</h2>
+            <p class="pt-5 pb-5 text-black-50 fs-5">You will find all new movies and series without any ads, and all of
                 this
                 is free
                 I wish you a pleasant viewing</p>
-            <button class="btn btn-outline-primary mb-5 fs-3">Learn More About Movie Club</button>
+            <button class="btn btn-outline-primary mb-5">Learn More About Movie Club</button>
         </div>
     </div>
 
     <div class="advantages text-center">
-        <h2 class="text-uppercase fs-1 text-white pt-5 pb-5">Advantages</h2>
-        <div class="accordion fs-2" id="accordionExample">
+        <h2 class="text-uppercase text-white pt-5 pb-5">Advantages</h2>
+        <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         The Movies
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body p-5">
+                    <div class="accordion-body p-5 fs-5">
                         This innovative feature enhances user engagement and encourages longer stays on our website,
                         ultimately driving increased conversions and customer satisfaction.
                     </div>
@@ -168,13 +157,13 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Series
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div class="accordion-body p-5 fs-5">
                         The "Series" section on our website is a curated collection of in-depth articles, videos, and
                         resources that delve into specific topics or themes. It provides visitors with a comprehensive
                         and immersive learning experience, allowing them to explore a subject in greater depth.
@@ -183,13 +172,13 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         No ads
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div class="accordion-body p-5 fs-5">
                         We believe in putting our users' needs first, ensuring that your time spent on our platform is
                         dedicated to what matters most—exploring, learning, and enjoying our valuable content without
                         any interruptions.
@@ -200,29 +189,29 @@
     </div>
 
     <div class="discount pb-2 pt-5 text-center">
-        <div class="container">
-            <h2 class="text-uppercase fs-1 text-white pt-5 pb-5">Discount code for paid movies</h2>
-            <h3 class="pb-5 text-white-50">This code can be used <a class="text-light discountCodeHere">Here</a>
+        <div class="container w-75">
+            <h2 class="text-uppercase text-white pt-5 pb-5">Discount code for paid movies</h2>
+            <h3 class="pb-5 text-white-50 fs-4">This code can be used <a class="text-light discountCodeHere">Here</a>
             </h3>
-            <div class="discount-code bg-secondary w-50 fs-3 p-3 hidden">
+            <div class="discount-code bg-secondary w-50 fs-4 p-3 hidden">
                 <p>MaYoMa-$1254822$: <span class="text-warning">15% DISCOUNT</span></p>
                 <p>MaYoMa-$1254822$: <span class="text-warning">25% DISCOUNT</span></p>
             </div>
         </div>
-        <div class="container">
-            <h2 class="text-uppercase fs-1 text-white pt-5 pb-5">Discount code for paid Series</h2>
-            <h3 class="pb-5 text-white-50">This code can be used <a class="text-light discountCodeHere">Here</a>
+        <div class="container w-75">
+            <h2 class="text-uppercase text-white pt-5 pb-5">Discount code for paid Series</h2>
+            <h3 class="pb-5 text-white-50 fs-4">This code can be used <a class="text-light discountCodeHere">Here</a>
             </h3>
-            <div class="discount-code bg-secondary w-50 fs-3 p-3 hidden">
+            <div class="discount-code bg-secondary w-50 fs-4 p-3 hidden">
                 <p>MaYoMa-$1254822$: <span class="text-warning">15% DISCOUNT</span></p>
                 <p>MaYoMa-$1254822$: <span class="text-warning">25% DISCOUNT</span></p>
             </div>
         </div>
-        <div class="container">
-            <h2 class="text-uppercase fs-1 text-white pt-5 pb-5">Discount code for paid Anime</h2>
-            <h3 class="pb-5 text-white-50">This code can be used <a class="text-light discountCodeHere"">Here</a>
+        <div class="container w-75">
+            <h2 class="text-uppercase text-white pt-5 pb-5">Discount code for paid Anime</h2>
+            <h3 class="pb-5 text-white-50 fs-4">This code can be used <a class="text-light discountCodeHere"">Here</a>
             </h3>
-            <div class=" discount-code bg-secondary w-50 fs-3 p-3 hidden">
+            <div class=" discount-code bg-secondary w-50 fs-4 p-3 hidden">
                     <p>MaYoMa-$1254822$: <span class="text-warning">15% DISCOUNT</span></p>
                     <p>MaYoMa-$1254822$: <span class="text-warning">25% DISCOUNT</span></p>
         </div>
@@ -241,7 +230,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-primary text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-primary text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +243,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-danger text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-danger text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
 
@@ -268,7 +257,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-dark text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-dark text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
 
@@ -282,7 +271,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-info text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-info text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
 
@@ -296,7 +285,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-warning text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-warning text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
 
@@ -310,7 +299,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-secondary text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-secondary text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
 
@@ -324,7 +313,7 @@
                             <div class="card-text pb-3"><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                            <a href="#" class="btn btn-outline-success text-uppercase">Watch Now</a>
+                            <a href="#" class="btn btn-outline-success text-uppercase fs-4">Watch Now</a>
                         </div>
                     </div>
 
@@ -373,10 +362,10 @@
             <div class="form d-flex align-items-baseline justify-content-center">
                 <h3 class="fw-bolder">Sign up for our newsletter</h3>
                 <form class="ps-5 d-flex flex-column">
-                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" class="fs-5">
                     <label for="email mt-2 mb-2">Email Address</label>
                 </form>
-                <button class="btn btn-primary p-3 ms-5 fs-3">Subscribe</button>
+                <button class="btn btn-primary p-3 ms-5 fs-5">Subscribe</button>
             </div>
             <div class="social-media d-flex align-items-center justify-content-center gap-3">
                 <i class="fa-brands fa-square-facebook"></i>
@@ -393,15 +382,16 @@
         <div class="container-fluid bg-light p-5 fs-2">
             <div class="row align-items-start">
                 <div class="col-md-5">
-                    <i class="fa-solid fa-clapperboard fs-1"></i>
-                    <h2 class="d-inline-block fs-1 fw-bolder pb-5">MovieClub</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam doloribus eligendi beatae minima
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <h2 class="d-inline-block fw-bolder pb-5">MovieClub</h2>
+                    <p class="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam doloribus eligendi
+                        beatae minima
                         dolor ea ab accusamus illo quod reprehenderit in aut laboriosam deserunt, aperiam nemo ipsam
                         velit eveniet voluptate.</p>
                 </div>
                 <div class="col-md-2">
-                    <h2 class="products fs-1 text-uppercase">products</h2>
-                    <ul class="list-unstyled lh-lg">
+                    <h2 class="products text-uppercase fs-3">products</h2>
+                    <ul class="list-unstyled lh-lg fs-4">
                         <li><a href="#" class="text-black-50">Movies</a></li>
                         <li><a href="#" class="text-black-50">Series</a></li>
                         <li><a href="#" class="text-black-50">Anime</a></li>
@@ -409,8 +399,8 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <h2 class="products fs-1 text-uppercase">useful links</h2>
-                    <ul class="list-unstyled lh-lg">
+                    <h2 class="products fs-3 text-uppercase">useful links</h2>
+                    <ul class="list-unstyled lh-lg fs-4">
                         <li><a href="#" class="text-black-50">Pricing</a></li>
                         <li><a href="#" class="text-black-50">Settings</a></li>
                         <li><a href="#" class="text-black-50">Orders</a></li>
@@ -418,8 +408,8 @@
                     </ul>
                 </div>
                 <div class="col-md-3 lh-lg">
-                    <h2 class="fs-1">CONTACT</h2>
-                    <ul class="list-unstyled">
+                    <h2 class="fs-3">CONTACT</h2>
+                    <ul class="list-unstyled fs-4">
                         <li><i class="fa-solid fa-location-dot"></i> <span class="ps-4">Egypt, Giza, +20</span></li>
                         <li><i class="fa-solid fa-envelope"></i> <span class="ps-4">info@example.com</span></li>
                         <li><i class="fa-solid fa-phone"></i> <span class="ps-4">+ 01 234 567 88</span></li>
@@ -428,7 +418,7 @@
                 </div>
             </div>
         </div>
-        <div class="copyright fs-2 text-black pt-5 pb-5 text-center">
+        <div class="copyright fs-4 text-black pt-4 pb-4 text-center">
             <p>© 2023 Copyright: <span class="text-decoration-underline">Mai Mahmoud</span></p>
         </div>
     </div>
