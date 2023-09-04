@@ -67,7 +67,10 @@ body {
     .contact .form input{
         width: 100% !important;
 }
-
+    .discount-code{
+        width:90%;
+}
+}
 /* Start Carousel */
 .carousel-item img {
     height: 100vh;
